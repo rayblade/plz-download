@@ -2,6 +2,8 @@
 name: DownloadAndUpload
 on:
   gollum
+  watch:
+    types: started
 jobs:
   downloading:
     runs-on: ubuntu-latest
